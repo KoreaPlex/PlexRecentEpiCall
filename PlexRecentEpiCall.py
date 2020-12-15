@@ -3,7 +3,7 @@ from requests.exceptions import ReadTimeout
 import time
 import xmltodict
 import os
-from sqlitedict import SqliteDict
+#from sqlitedict import SqliteDict
 
 baseurl = 'http://localhost:32400'
 token = 'plexToken'
