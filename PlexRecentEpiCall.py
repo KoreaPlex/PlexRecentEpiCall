@@ -6,7 +6,7 @@ import os
 from sqlitedict import SqliteDict
 
 baseurl = 'http://localhost:32400'
-token = 'EDLzhCqbEjXvwQuziiCz'
+token = 'plexToken'
 intervalTime = 3600 * 24 # 24시간마다
 fragmentTime = 20 # 앞부분 몇 초를 잘라서 다운받을지
 cacheDir = "cache" # 캐시폴더 디렉토리. 블랭크면 현재위치
